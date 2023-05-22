@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main .sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    background: #a25746;
+}
+.main .sidebar .image {
+    background-image: url(emotions-people-concept-headshot-serious-looking-handsome-man-with-beard-looking-confident-determined_1258-26730.webp);
+    background-position: 50% 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.main .sidebar ul {
+    margin-top: 30px;
+    list-style: none;
+}
+.main .sidebar ul li {
+    margin: 16px 0;
+}
+.main .sidebar ul .active a {
+    color: #fff;
+}
+.main .sidebar ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bdbcbc;
+    font-weight: bold;
+}
+.main .page {
+    position: relative;
+    margin-left: 300px;
+    padding-top: 100px;
+    height: 100vh;
+}
+.main .page .about {
+    padding-left: 70px;
+    width: 90%;
+}
+.main .page .about h1 {
+    font-size: 56px;
+    font-family: 'Bebas Neue', sans-serif !important; 
+    margin: 70px 10px 50px;
+}
+h2 {
+    font-family: 'Bebas Neue', sans-serif !important; 
+}
+.heading-caption {
+    margin-top: -10px;
+    margin-bottom: 16px;
+} 
+span {
+    color: #474747; 
+    font-size: 24px;
+    font-family: 'Saira Condensed', sans-serif !important; 
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+.container {
+    margin: 64px 0;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.heading p  {
+    color: #a25746;
+}
+
+.paragraph {
+    width: 86%;
+
+}
+
